@@ -1,0 +1,21 @@
+git remote set-url origin https://Julio-R10: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@github.com/Julio-R10/JulioRuiz1
+
+echo "# JulioRuiz1" >> README.md
+git init      "Ejecuta git init en la terminal. Esto inicializará la carpeta/repositorio que tienes en tu computador local."
+
+git add README.md "Ejecuta git add . en la terminal. Esto hará un seguimiento de los cambios realizados en la carpeta de tu sistema desde el último commit. 
+Si es la primera vez que haces commit a los contenidos de la carpeta, se añadirán todos."
+
+git commit -m "first commit" "Ejecuta git commit -m "inserta Mensaje aquí". Esto preparará los cambios añadidos/rastreados en la carpeta de tu sistema para empujar a Github.
+ Puedes reemplazar inserta el Mensaje aquí con cualquier mensaje de confirmación relevante de tu elección."
+
+git branch -M main " crea una rama main y brach muestra todas las ramas creadas "
+
+git chackout <rama> "Permite cambiar la rama de trabajo"
+
+git remote add origin https://github.com/Julio-R10/JulioRuiz1.git "Ejecuta git remote add origin https://github.com/nombreDeUsuario/repositorio.git en la terminal. Aquí, nombreDeUsuario 
+y repositorio serán reemplazados por los valores proporcionados en el enlace copiado. Esto conectará la carpeta existente en tu sistema local al repositorio de Github recién creado."
+
+git push -u origin main "sube el archivo añadido y el commit al repositorio"
+
+git status "Permite  ver que archivos estan actualizados en repositorio remoto" color rojo no estan actualizados, color verde estan actualizados.
